@@ -1,4 +1,4 @@
-package palyshoping.example.com.shopingforplay;
+package palyshoping.example.com.shopingforplay.eventbus;
 
 import com.squareup.otto.Bus;
 

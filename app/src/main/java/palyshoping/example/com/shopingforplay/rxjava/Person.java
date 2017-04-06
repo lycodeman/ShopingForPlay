@@ -1,7 +1,4 @@
-package palyshoping.example.com.shopingforplay;
-
-import android.os.Parcel;
-import android.os.Parcelable;
+package palyshoping.example.com.shopingforplay.rxjava;
 
 import java.io.Serializable;
 import java.util.List;

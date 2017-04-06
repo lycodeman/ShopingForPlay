@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="palyshoping.example.com.shopingforplay.eventbus.Main2Activity">
-
-    <TextView
-        android:id="@+id/tv"
+    tools:context="palyshoping.example.com.shopingforplay.rxbus.RxBusActivity">
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="测试EventBus"/>
+        android:text="RxBus"
+        android:id="@+id/rxbus"/>
 </android.support.constraint.ConstraintLayout>

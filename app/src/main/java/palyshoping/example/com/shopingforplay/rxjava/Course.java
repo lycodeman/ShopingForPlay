@@ -1,4 +1,4 @@
-package palyshoping.example.com.shopingforplay;
+package palyshoping.example.com.shopingforplay.rxjava;
 
 /**
  * Created by Administrator on 2017/4/6/006.

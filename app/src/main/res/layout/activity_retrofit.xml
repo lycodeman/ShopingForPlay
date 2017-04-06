@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context="palyshoping.example.com.shopingforplay.retrofit.RetrofitActivity">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxBus"
+        android:id="@+id/rxbus"/>
 </android.support.constraint.ConstraintLayout>

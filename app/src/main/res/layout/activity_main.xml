@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/activity_main"
-    tools:context="palyshoping.example.com.shopingforplay.MainActivity">
+    tools:context="palyshoping.example.com.shopingforplay.eventbus.MainActivity">
 
     <Button
         android:text="Button"

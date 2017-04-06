@@ -1,4 +1,4 @@
-package palyshoping.example.com.shopingforplay;
+package palyshoping.example.com.shopingforplay.eventbus;
 
 /**
  * Created by Administrator on 2017/4/5/005.

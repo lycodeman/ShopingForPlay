@@ -1,25 +1,18 @@
-package palyshoping.example.com.shopingforplay;
+package palyshoping.example.com.shopingforplay.rxjava;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.telecom.Call;
 import android.util.Log;
-
-import org.reactivestreams.Subscriber;
-import org.reactivestreams.Subscription;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringTokenizer;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.ObservableOperator;
 import io.reactivex.ObservableSource;
-import io.reactivex.ObservableTransformer;
 import io.reactivex.Observer;
-import io.reactivex.Scheduler;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.Disposable;
@@ -27,6 +20,9 @@ import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
+import palyshoping.example.com.shopingforplay.R;
+import palyshoping.example.com.shopingforplay.rxjava.Course;
+import palyshoping.example.com.shopingforplay.rxjava.Person;
 
 public class RxJavaActivity extends AppCompatActivity {
 

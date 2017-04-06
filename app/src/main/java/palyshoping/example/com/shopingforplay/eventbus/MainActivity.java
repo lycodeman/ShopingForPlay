@@ -1,4 +1,4 @@
-package palyshoping.example.com.shopingforplay;
+package palyshoping.example.com.shopingforplay.eventbus;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,15 +8,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
+import palyshoping.example.com.shopingforplay.R;
 
 public class MainActivity extends AppCompatActivity {
 
