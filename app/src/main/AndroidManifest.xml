@@ -15,14 +15,14 @@
         <activity android:name=".eventbus.Main2Activity" />
         <activity android:name=".rxjava.RxJavaActivity"></activity>
         <activity android:name=".retrofit.RetrofitActivity">
-
-        </activity>
-        <activity android:name=".rxbus.RxBusActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".rxbus.RxBusActivity">
+
         </activity>
     </application>
 

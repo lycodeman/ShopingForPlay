@@ -38,4 +38,5 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit-adapters:2.2.0'
     compile 'com.hwangjr.rxbus:rxbus:2.0.0-beta'
     testCompile 'junit:junit:4.12'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
 }
