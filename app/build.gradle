@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -17,6 +16,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
 
 dependencies {
@@ -39,4 +40,6 @@ dependencies {
     compile 'com.hwangjr.rxbus:rxbus:2.0.0-beta'
     testCompile 'junit:junit:4.12'
     compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.3@aar'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
 }
