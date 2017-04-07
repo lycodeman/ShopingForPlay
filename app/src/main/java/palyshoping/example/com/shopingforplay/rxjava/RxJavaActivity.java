@@ -223,6 +223,17 @@ public class RxJavaActivity extends AppCompatActivity {
 //                        return null;
 //                    }
 //                })
+        Observable.create(new ObservableOnSubscribe<Person>() {
+            @Override
+            public void subscribe(@NonNull ObservableEmitter<Person> e) throws Exception {
+                e.onNext(new Person("ll",20));
+            }
+        }).subscribe(new Consumer<Person>() {
+            @Override
+            public void accept(@NonNull Person person) throws Exception {
+                Log.e(TAG, "accept: "+person.toString() );
+            }
+        });
     }
 
     private void initPersonDataList(List<Person> persons) {

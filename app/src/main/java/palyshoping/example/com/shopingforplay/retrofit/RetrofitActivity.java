@@ -1,10 +1,13 @@
 package palyshoping.example.com.shopingforplay.retrofit;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.jaeger.library.StatusBarUtil;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;
@@ -45,6 +48,9 @@ public class RetrofitActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_retrofit);
+//        StatusBarUtil.setColor(this, Color.RED);
+        StatusBarUtil.setTranslucent(this,0);
+//        StatusBarUtil.setTransparent(this);
         ButterKnife.inject(this);
         new Thread(new Runnable() {
             @Override
