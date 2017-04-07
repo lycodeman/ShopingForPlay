@@ -8,6 +8,7 @@ import android.widget.TextView;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
+import io.reactivex.Observable;
 import palyshoping.example.com.shopingforplay.R;
 import palyshoping.example.com.shopingforplay.mvp.modle.BaseModle;
 import palyshoping.example.com.shopingforplay.mvp.modle.BaseModleBean;
@@ -28,11 +29,12 @@ public class MvpActivity extends AppCompatActivity implements BaseView {
         setContentView(R.layout.activity_mvp);
         ButterKnife.inject(this);
         initView();
-        presenter.attachView(this);
+
     }
 
     private void initView() {
         presenter=new Presenter(this);
+        presenter.attachView(this);
         presenter.loadData();
     }
 

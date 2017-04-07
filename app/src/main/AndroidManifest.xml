@@ -14,12 +14,13 @@
         <activity android:name=".eventbus.MainActivity" />
         <activity android:name=".eventbus.Main2Activity" />
         <activity android:name=".rxjava.RxJavaActivity" />
-        <activity android:name=".retrofit.RetrofitActivity">
-
-        </activity>
+        <activity android:name=".retrofit.RetrofitActivity"></activity>
         <activity android:name=".rxbus.RxBusActivity" />
         <activity android:name=".animation.AnimationActivity" />
         <activity android:name=".mvp.MvpActivity">
+
+        </activity>
+        <activity android:name=".loginmvp.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
